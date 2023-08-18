@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
-import Mobile1 from "../../assets/mobile1.svg";
-import Mobile2 from "../../assets/mobile2.svg";
+import Mobile1 from "../../assets/Mobile.svg";
 // const autoslide = require("../utils/javascript");
 import * as Utils from '../../utils/javascript';
 import "../../styles/partials/_layout.scss";
@@ -9,8 +8,8 @@ import "../../styles/partials/_services.scss";
 const Mobile = () => {
 
   useEffect(() => {
-    const images = document.querySelectorAll(".mobilesvg");
-    Utils.autoSlide(images);
+    // const images = document.querySelectorAll(".mobilesvg");
+    // Utils.autoSlide(images);
   }, []);
   return (
     <>
@@ -34,7 +33,6 @@ const Mobile = () => {
 
         <div className="rightcontainer">
           <img src={Mobile1} className="mobilesvg" />
-          <img src={Mobile2} className="mobilesvg" />
         </div>
       </div>
       {/* <div className="footer">Developed and deisgned by Arash Ammarlooi</div> */}

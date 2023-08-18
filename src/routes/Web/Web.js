@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { useHistory } from "react-router-dom";
-import Web1 from "../../assets/web1.svg";
-import Web2 from "../../assets/web2.svg";
+import Web1 from "../../assets/Webui.svg";
 import "../../styles/partials/_layout.scss";
 import "../../styles/partials/_services.scss";
 // import {autoslide} from "../utils/javascript";
@@ -17,8 +16,8 @@ import {
 
 const Web = () => {
   useEffect(() => {
-    const images = document.querySelectorAll(".websvg");
-    Utils.autoSlide(images);
+    // const images = document.querySelectorAll(".websvg");
+    // Utils.autoSlide(images);
   }, []);
   return (
     <>
@@ -45,7 +44,6 @@ const Web = () => {
 
           <div className="rightcontainer">
             <img src={Web1} className="websvg" alt="" />
-            <img src={Web2} className="websvg" alt="" />
           </div>
         </div>
         {/* <div className="footer">Deve  loped and deisgned by Arash Ammarlooi</div> */}
