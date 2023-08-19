@@ -1,7 +1,7 @@
 {
-  "name": "react-webpack-babel-sass-boilerplate",
+  "name": "Portfolio",
   "version": "2.0.0",
-  "description": "Boilerplate React application with Webpack, Babel and Sass.",
+  "description": "Arash Ammarlooi Portfolio",
   "main": "index.js",
   "scripts": {
     "build": "webpack -p --mode production",
@@ -10,13 +10,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/marcnuri-demo/react-webpack-babel-sass-boilerplate.git"
+    "type": "git"
   },
   "keywords": [],
   "author": {
-    "name": "Marc Nuri",
-    "url": "https://blog.marcnuri.com"
+    "name": "Marc Nuri"
   },
   "license": "Apache-2.0",
   "licenses": [
@@ -25,10 +23,7 @@
       "url": "http://www.apache.org/licenses/LICENSE-2.0"
     }
   ],
-  "bugs": {
-    "url": "https://github.com/marcnuri-demo/react-webpack-babel-sass-boilerplate/issues"
-  },
-  "homepage": "https://ArashAmmarlooi.github.io/portfolio",
+  "homepage": "https://ArashAmmarlooi.github.io/Portfolio",
   "devDependencies": {
     "@babel/core": "7.2.2",
     "@babel/plugin-proposal-object-rest-spread": "7.3.2",
